@@ -20,7 +20,7 @@ This application scrapes NFT metadata from IPFS using a CSV list of IPFS CIDs an
 ### Step 1: Clone the Repository
 
 ```
-git clone https://github.com/yourusername/nft_scraper.git
+git clone https://github.com/shawnwollenberg/ipfs-metadata.git
 cd nft_scraper
 ```
 
@@ -99,10 +99,6 @@ GET /metadata
   "image": "Example Image URL"
 }
 ```
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 
 ## Acknowledgements
 * [Gin Gonic](https://github.com/gin-gonic/gin) for the web framework.
