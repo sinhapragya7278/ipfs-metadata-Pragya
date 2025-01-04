@@ -105,5 +105,12 @@ GET /metadata
 * [sqlx](https://github.com/jmoiron/sqlx) for SQL database interactions.
 * [godotenv](https://github.com/joho/godotenv) for loading environment variables from a .env file.
 
+# NFT Metadata Scraper
+
+(existing content...)
+
+## Additional Notes
+- Triggering GitHub Actions Workflow
+
 ## Contact
 For any questions or suggestions, please open an issue or contact the repository owner.
