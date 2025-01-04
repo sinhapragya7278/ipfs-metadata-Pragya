@@ -31,10 +31,3 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/ipfs-metadata-app:latest
-
-      - name: Notify on Slack (optional)
-        if: success()
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: |
-          curl -X POST -H 'Content-type: application/json' --data '{"text":"Docker image has been successfully built and pushed!"}' $SLACK_WEBHOOK_URL
